@@ -1,5 +1,4 @@
 import DbProductFactory from "../factory/DbProductFactory";
-import MySQLProduct from "../model/MySQLProduct";
 
 export default class Payment {
   pay(productId: number): void {
